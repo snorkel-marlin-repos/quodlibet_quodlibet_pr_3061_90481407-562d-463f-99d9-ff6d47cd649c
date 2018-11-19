@@ -1,0 +1,56 @@
+*.pyc
+*.pyo
+*.so
+*.swp
+*.rej
+*.orig
+*.cache
+*.cover
+*.pot
+*.mo
+*.tar.gz
+*.tar.xz
+MANIFEST
+.DS_Store
+*.egg-info
+
+quodlibet/po/missing
+quodlibet/po/notexist
+
+# Sphinx build files
+quodlibet/docs/_build*/*
+quodlibet/docs/_rtd_theme*
+
+# Ignore build files
+quodlibet/build/*
+quodlibet/dist/*
+
+# Ignore Eclipse files
+.buildpath
+.project
+.settings/*
+.pydevproject
+
+# And IDEA
+.idea/*
+
+# Windows Installer
+win_installer/_build_root
+win_installer/_rebuild_root
+
+# OS X Bundle
+osx_bundle/_home
+osx_bundle/_build
+osx_bundle/_bundler
+osx_bundle/_jhbuild
+
+# coverage.py html report
+quodlibet/coverage/*
+.coverage
+
+# mypy
+.mypy_cache
+
+.pytest_cache
+test-results
+Pipfile.lock

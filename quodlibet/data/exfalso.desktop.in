@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Ex Falso
+GenericName=Audio tag editor
+Comment=Edit tags in your audio files
+Exec=exfalso
+Terminal=false
+StartupNotify=true
+Type=Application
+Icon=exfalso
+Categories=AudioVideo;Audio;AudioVideoEditing;GTK;
